@@ -233,6 +233,8 @@ int main(int argc, char *argv[])
   struct GlobalConfig global;
   memset(&global, 0, sizeof(global));
 
+  AFL_INIT_ARGV();
+
   tool_init_stderr();
 
 #ifdef _WIN32
