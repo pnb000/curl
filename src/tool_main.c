@@ -47,6 +47,7 @@
 #include "tool_main.h"
 #include "tool_libinfo.h"
 #include "tool_stderr.h"
+#include "../../AFLplusplus/utils/argv_fuzzing/argv-fuzz-inl.h"
 
 /*
  * This is low-level hard-hacking memory leak tracking and similar. Using
